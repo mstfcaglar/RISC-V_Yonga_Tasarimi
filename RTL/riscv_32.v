@@ -140,13 +140,13 @@ assign veri_cikisi_byte_unsigned = {{24{1'b0}}, veri_cikisi [7:0]};
 
 
 assign rd_veri = (mux2_dnt==3'b000) ? (sonuc):
-				 (mux2_dnt==3'b001) ? (veri_cikisi_signed):
-				 (mux2_dnt==3'b010) ? (pc_artidort):
-				 (mux2_dnt==3'b011) ? (veri_cikisi_halfword):
-				 (mux2_dnt==3'b100) ? (veri_cikisi_byte):
-				 (mux2_dnt==3'b101) ? (veri_cikisi_unsigned):
-				 (mux2_dnt==3'b110) ? (veri_cikisi_halfword_unsigned):
-				 (veri_cikisi_byte_unsigned);
+		 (mux2_dnt==3'b001) ? (veri_cikisi_signed):
+		 (mux2_dnt==3'b010) ? (pc_artidort):
+		 (mux2_dnt==3'b011) ? (veri_cikisi_halfword):
+		 (mux2_dnt==3'b100) ? (veri_cikisi_byte):
+		 (mux2_dnt==3'b101) ? (veri_cikisi_unsigned):
+		 (mux2_dnt==3'b110) ? (veri_cikisi_halfword_unsigned):
+		 (veri_cikisi_byte_unsigned);
 				 
 
 
