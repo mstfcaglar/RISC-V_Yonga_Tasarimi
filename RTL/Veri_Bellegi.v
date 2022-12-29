@@ -13,10 +13,10 @@ module Veri_Bellegi
 
 
      
-	 (* ram_style = "block"*)
+     (* ram_style = "block"*)
      reg [31:0] ram [255:0];  
 
-	initial begin   
+    initial begin   
         $readmemb ("Veri_Bellegi.mem",ram,0,255); 
     end
 	
