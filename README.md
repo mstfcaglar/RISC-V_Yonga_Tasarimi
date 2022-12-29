@@ -1,1 +1,1 @@
-# RISC-V_Yonga_Tasarimi
+# RISC-V Yonga Tasarımı
