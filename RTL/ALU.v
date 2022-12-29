@@ -15,11 +15,11 @@ module ALU(
  wire [31:0] bu;
  
 assign au = (a[31]==1'b0) ? (a):   
-		    (a[31]==1'b1) ? (-a):  //unsigned a
-			1'b0;
+	    (a[31]==1'b1) ? (-a):  //unsigned a
+	    1'b0;
 assign bu = (b[31]==1'b0) ? (b):
-		    (b[31]==1'b1) ? (-b):  // unsigned b
-			1'b0;			  
+	    (b[31]==1'b1) ? (-b):  // unsigned b
+	    1'b0;			  
 
 
 			  
